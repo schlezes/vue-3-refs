@@ -17,6 +17,9 @@ Here is the B.vue component (only).
 
 The main purpose of this post is to 'refresh' how to use the refs in Vue.
 
+1.  use "ref" (singular) syntax as keyword for the element: ie, ref="id=0", ref="input"
+2.  use this.$refs to 
+
 1.  The ref on an element is used to capture the DOM object.
 2.  ref="id=0" is the syntax within the <div> element; <div ref="id=0">, as the following screenshot red arrow indicates.
 3.  console.log(this.$refs) will log the DOM object to the console.
