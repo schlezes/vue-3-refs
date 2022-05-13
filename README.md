@@ -22,6 +22,8 @@ Ref is a Vue special attribute. This attribute allows direct access to a specifi
 1.  use "ref" (singular) syntax as keyword for the element that you want access to: ie, <div ref="id=0"></div>
 2.  use this.$refs to obtain the $refs element target: i.e., console.log(this.$refs) will log to the console the specific DOM element.
 
+Explained another way,
+
 1.  The ref on an element is used to identify the element object property in the DOM.
 2.  ref="id=0" is the syntax within the <div> element; <div ref="id=0">, as the following screenshot red arrow indicates.
 3.  console.log(this.$refs) will log the DOM element object to the console.
