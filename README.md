@@ -26,7 +26,7 @@ Ref is a Vue special attribute. This attribute allows direct access to a specifi
 Explained another way,
 
 1.  The ref on an element is used to identify the element object property in the DOM.
-2.  ref="id=0" is the syntax within the <div> element; ref="id=0", as the following screenshot red arrow indicates.
+2.  ref="id=0" is the syntax within the <div> element. ref="id=0", as the following screenshot red arrow indicates.
 3.  console.log(this.$refs) will log the DOM element object to the console.
 4.  Now, you can use this.$refs for the target property object refinement.
 5.  Use Reflect.get(this.$refs, 'id=0') to return the element object as a choice.
