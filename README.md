@@ -18,14 +18,15 @@ Here is the B.vue component (only).
 The main purpose of this post is to 'refresh' how to use the refs in Vue.
 
 1.  use "ref" (singular) syntax as keyword for the element: ie, ref="id=0", ref="input"
-2.  use this.$refs to 
+2.  use this.$refs to obtain the $refs object
 
-1.  The ref on an element is used to capture the DOM object.
+1.  The ref on an element is used to identify the element object property in the DOM.
 2.  ref="id=0" is the syntax within the <div> element; <div ref="id=0">, as the following screenshot red arrow indicates.
-3.  console.log(this.$refs) will log the DOM object to the console.
-4.  Now, you can use this.$refs for object refinement.
-
-![image](https://user-images.githubusercontent.com/89032071/168346330-80203c06-0cf1-43c7-a86c-389a8f81200c.png)
+3.  console.log(this.$refs) will log the DOM element object to the console.
+4.  Now, you can use this.$refs for the target property object refinement.
+5.  Use Reflect.get(this.$refs, 'id=0') to return the element object.
+  
+![image](https://user-images.githubusercontent.com/89032071/168395846-bf5beb91-c80e-4c66-ab78-97542bab3ab6.png)
 
 And now, the Vue Dev Tools screenshot.
   
