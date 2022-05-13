@@ -1,10 +1,10 @@
 # vue-3-refs
 Using Vue 3 refs in Vue -cli.
 
-Here is the page render.  There are two components.
+Here is a simple page render.  There are two components. These are single file components.
 
 1.  A.vue a header component
-2.  B.vue template containing 9 DIVS component
+2.  B.vue component containing 9 DIVS
 
 The 9 DIVS are simply a 50px square colored box, each defined by an HSL increment of n=36.
 The idea is simply to expand a box by 1.25 times using a click event.
@@ -24,4 +24,7 @@ The main purpose of this post is to 'refresh' how to use the refs in Vue.
 
 ![image](https://user-images.githubusercontent.com/89032071/168346330-80203c06-0cf1-43c7-a86c-389a8f81200c.png)
 
+And now, the Vue Dev Tools screenshot.
+  
+  ![image](https://user-images.githubusercontent.com/89032071/168374821-cfd424b7-7561-44fc-93b4-bd1acccae30f.png)
 
