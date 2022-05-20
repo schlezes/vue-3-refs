@@ -4,7 +4,7 @@ Using Vue 3 refs in Vue -cli.
 Here is a simple page render.  There are two components. These are single file components.
 
 1.  A.vue a header component
-2.  B.vue component containing 9 DIVS
+2.  B.vue component containing 10 DIVS
 
 The 10 DIVS are simply a 50px square colored box, each defined by an HSL increment of n=36.
 The idea is simply to expand a box by 1.25 times using a click event.
