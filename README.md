@@ -6,7 +6,7 @@ Here is a simple page render.  There are two components. These are single file c
 1.  A.vue a header component
 2.  B.vue component containing 9 DIVS
 
-The 9 DIVS are simply a 50px square colored box, each defined by an HSL increment of n=36.
+The 10 DIVS are simply a 50px square colored box, each defined by an HSL increment of n=36.
 The idea is simply to expand a box by 1.25 times using a click event.
 
 ![image](https://user-images.githubusercontent.com/89032071/168347238-5461af05-816c-4e2b-8546-04b0628fbba3.png)
